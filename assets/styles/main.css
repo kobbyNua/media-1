@@ -223,7 +223,8 @@ h3{font-size: 4.0em;font-weight: 500;}
      .popular-posts .ad-image{height: 40vh}
      .popular-posts .ad-image{height: 40vh}
      .ad-image-over{height:40vh}
-     .ad-image-over im{height: 100%}
+     .ad-image-over img{height: 100%}
+     .popular-posts .recent-post{height: 25px;padding: 6px 0px;}
      }
            
      
