@@ -91,6 +91,7 @@ h3{font-size: 4.0em;font-weight: 500;}
 
 .main-stories-headline{width: 73%}
 .main-stories-headline h4{font-size: 1.2em;}
+.main-stories-headline h5 a{text-decoration: none;color: #4d4d4d}
 .aritcles{width: 100%;margin-top: 10px}
 .aritcles .col-md-4{position: relative;}
 .aritcles .articles-sheet{width: 100%;padding: 15px;background-color: #fff;position: relative;}
