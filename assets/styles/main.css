@@ -79,7 +79,7 @@ h3{font-size: 4.0em;font-weight: 500;}
 .news-section-sheet .col-md-9 .col-md-8 .col-md-6{margin-bottom: 20px}
 .main-stories-description{width: 100%;height:17vh}
 .main-stories-description:not(:last-child){border-bottom: 1px solid #ebebeb;}
-.main-stories-image{width: 25%;height: 12vh;background-color: rgba(0,0,0,0.1)}
+.main-stories-image{width: 25%;height: 14vh;background-color: rgba(0,0,0,0.1)}
 .main-stories-image img{width: 100%;height:100%;}
 .news-section-sheet-story-image{width: 100%;height:30vh;background-color: rgba(0, 0, 0,0.1);margin-bottom: 5px; }
 .news-section-sheet-story-image img{width: 100%;height: 30vh}
@@ -91,7 +91,8 @@ h3{font-size: 4.0em;font-weight: 500;}
 
 .main-stories-headline{width: 73%}
 .main-stories-headline h4{font-size: 1.2em;}
-.main-stories-headline h5 a{text-decoration: none;color: #4d4d4d}
+.main-stories-headline h5 a{text-decoration: none;color: #4d4d4d;font-size: 15px;}
+.main-stories-headline span{color: #ff0000;font-size: 12px;font-weight: 500}
 .aritcles{width: 100%;margin-top: 10px}
 .aritcles .col-md-4{position: relative;}
 .aritcles .articles-sheet{width: 100%;padding: 15px;background-color: #fff;position: relative;}
@@ -101,7 +102,7 @@ h3{font-size: 4.0em;font-weight: 500;}
 .aritcles .articles-sheet .articles-items .articles-items-image img{height: 100%;width: 100%}
 
 .aritcles .articles-sheet .articles-items .articles-items-body{width: 100%;background-color: rgba(0,0,0,0.3);height: 100%;position: absolute;top: 0px;left: 0px;color: #fff;padding: 10px}
-.aritcles .articles-sheet .articles-items .articles-items-body .articles-items-overlay-text{width: 100%;position: absolute;bottom: 10px;padding: 6px}
+.aritcles .articles-sheet .articles-items .articles-items-body .articles-items-overlay-text{width: 100%;border-left: 1px solid red;position: absolute;bottom: 10px;padding: 6px}
 .aritcles .articles-sheet .articles-items .articles-items-body .articles-items-overlay-text h5 a{color: #f2f2f2;font-size: 16px;text-decoration: none;}
 
 
@@ -118,7 +119,7 @@ h3{font-size: 4.0em;font-weight: 500;}
 .new-trends .new-trends-video{width: 25%;height: 100%;background-color: rgba(0, 0, 0,0.1);}
 .new-trends .new-trends-video img{width: 100%;height: 100%}
 .new-trends .new-trends-caption{width: 73%;height: 100%;padding: 5px}
-.new-trends .new-trends-caption h5 a{text-decoration: none;color: #4d4d4d}
+.new-trends .new-trends-caption h5 a{text-decoration: none;color: #404040}
 
 
 
@@ -137,9 +138,10 @@ h3{font-size: 4.0em;font-weight: 500;}
 .popular-posts{width: 100%;padding: 15px;background-color: #fff;}
 .popular-posts-story{width: 100%;padding: 10px 0px;height: 17vh;}
 .popular-posts-story:not(:last-child){border-bottom: 1px solid #ebebeb;}
-.popular-posts-image{width: 25%;height: 12vh;background-color: rgba(0, 0, 0,0.1);}
+.popular-posts-image{width: 25%;height: 14vh;background-color: rgba(0, 0, 0,0.1);}
 .popular-posts-image img{width: 100%;height: 100%}
-.popular-posts-body{width: 73%;padding: 7px 0px;}
+.popular-posts-body{width: 73%;padding: 4px 0px;}
+.popular-posts-body h5 a{text-decoration: none;font-size: 14px;color: #404040}
 
 
 .popular-posts .recent-post{wdith: 100%;height:32vh;padding: 17px 0px;}
