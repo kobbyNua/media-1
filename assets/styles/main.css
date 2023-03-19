@@ -71,9 +71,10 @@ h3{font-size: 4.0em;font-weight: 500;}
 .top-story-line img{width: 100%;height:100%;}
 .main-stories{width: 100%}
 .news-section-sheet .col-md-9 .col-md-8 .col-md-6{margin-bottom: 20px}
-.main-stories-description{width: 100%;height: 21vh}
+.main-stories-description{width: 100%;height:17vh}
 .main-stories-description:not(:last-child){border-bottom: 1px solid #ebebeb;}
-.main-stories-image{width: 25%;height: 15vh;background-color: rgba(0,0,0,0.1)}
+.main-stories-image{width: 25%;height: 12vh;background-color: rgba(0,0,0,0.1)}
+.main-stories-image img{width: 100%;height:100%;}
 .news-section-sheet-story-image{width: 100%;height:30vh;background-color: rgba(0, 0, 0,0.1);margin-bottom: 5px; }
 .news-section-sheet-story-image img{width: 100%;height: 30vh}
 .news-section-sheet-story{position: relative;width: 100%}
@@ -81,7 +82,7 @@ h3{font-size: 4.0em;font-weight: 500;}
 .news-section-sheet-story-text{position: absolute;bottom: 10px;color: #fff}
 .news-section-sheet-story-caption{padding: 5px;}
 .news-section-sheet-story-caption h3{font-size: 20px;font-weight:400}
-.main-stories-image img{width: 100%;height: 15vh;}
+
 .main-stories-headline{width: 73%}
 .main-stories-headline h4{font-size: 1.2em;}
 .aritcles{width: 100%;margin-top: 10px}
@@ -205,8 +206,8 @@ h3{font-size: 4.0em;font-weight: 500;}
      .aritcles .articles-sheet .articles-items .articles-items-body{width: 100%;height: 100%}
 
 
-     .news-section-sheet{width: 100%;background-color:#fff;padding:0px;margin-bottom: :5px;}
-
+     .news-section-sheet{width: 100%;padding:0px;margin-bottom: :5px;}
+     .news-section-sheet #new_items_sheet{background-color:#fff;}
      .top-story-line,.main-stories{padding: 15px;background-color: #fff;}
      .top-story-line img{height: 85%}
 
