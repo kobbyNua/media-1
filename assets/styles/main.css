@@ -1,7 +1,7 @@
 *{margin: 0px;padding: 0px;}
 
 h1,h2,h3,h4,h5,h6{font-family: 'Montserrat';}
-p,span,a{font-family: 'Montserrat';font-weight: 300;}
+p,span,a{font-family: 'Montserrat';font-weight: 300;font-size: 16px}
 h1{font-size: 7.0em;font-weight: 700;}
 h2{font-size: 6.0em;font-weight: 700;}
 h3{font-size: 4.0em;font-weight: 500;}
@@ -29,14 +29,20 @@ h3{font-size: 4.0em;font-weight: 500;}
 .topnews-story-headlines-overlay{top: 0px;left: 0px;padding: 8px;position:absolute;width: 100%;background-color:rgba(0, 0, 0,0.1);height:100%;color: #fff}
 .topnews-story-headlines-text{position: absolute;bottom: 8px;padding: 5px;border-left: 1px solid #ff0000}
 .topnews-story-headlines-text h3{font-size: 17px}
-.top-story{width: 100%;height:40vh;background-color: rgba(0,0,0,0.1);margin-bottom: 10px}
+.top-story{width: 100%;height:40vh;background-color: rgba(0,0,0,0.1);margin-bottom: 10px;position: relative;}
+.top-story-overlay{width: 100%;height: 100%;padding: 8px;position: absolute;top: 0px;left: 0px;background-color:rgba(0, 0, 0,0.2);}
+.top-story-text{position: absolute;bottom: 10px;border-left: 2px solid red}
+.top-story-text h5 a{color: #f3f3f3;text-decoration: none;text-transform: uppercase;font-size: 14px;font-weight: 500;}
+.top-story-text span{text-transform: uppercase;color: #fff;font-weight: 500;font-size: 12px}
 .top-story img{width: 100%;height:40vh}
 
-.other-story-description-headline{width: 100%;height:15vh;}
-.other-story-description-headline h5{font-size: 20px;font-weight: 300;color:#404040}
+.other-story-description-headline{width: 100%;height:17vh;}
+.other-story-description-headline h5 a{font-size: 15px;font-weight:400;color:#404040;text-decoration: none;word-spacing: 3px;}
+.other-story-description-headline h5 a:hover{color: #333}
 .other-story-description-headline p{color: #e6e6e6}
+.story-details span{text-transform: uppercase;color: #ff0000;font-weight: 500;font-size: 12px}
 .other-story-description-headline:not(:last-child){border-bottom: 1px solid #ebebeb;}
-.image-story{width:25%;height: 12vh;background-color: rgba(0,0,0,0.1)}
+.image-story{width:25%;height: 15vh;background-color: rgba(0,0,0,0.1)}
 .image-story img{height: 100%;width: 100%}
 .story-details{width: 73%;height: 18px;}
 
@@ -92,8 +98,10 @@ h3{font-size: 4.0em;font-weight: 500;}
 
 .aritcles .articles-sheet .articles-items .articles-items-image{width: 100%;height:40vh;background-color: rgba(0,0,0,0.2);}
 .aritcles .articles-sheet .articles-items .articles-items-image img{height: 100%;width: 100%}
-.aritcles .articles-sheet .articles-items .articles-items-body{width: 100%;background-color: rgba(0,0,0,0.3);height: 100%;position: absolute;top: 0px;left: 0px;color: #fff;padding: 10px}
 
+.aritcles .articles-sheet .articles-items .articles-items-body{width: 100%;background-color: rgba(0,0,0,0.3);height: 100%;position: absolute;top: 0px;left: 0px;color: #fff;padding: 10px}
+.aritcles .articles-sheet .articles-items .articles-items-body .articles-items-overlay-text{width: 100%;position: absolute;bottom: 10px;padding: 6px}
+.aritcles .articles-sheet .articles-items .articles-items-body .articles-items-overlay-text h5 a{color: #f2f2f2;font-size: 16px;text-decoration: none;}
 
 
 
@@ -188,6 +196,7 @@ h3{font-size: 4.0em;font-weight: 500;}
 
      .new-trends{width: 100%;height:17vh;background-color: #fff;margin-bottom: 7px}*/
      html{font-size:12px}
+     span,p,a{font-weight: 400;}
      #header{padding:13px;margin-bottom:20px;}
      #header button{border: none;}
      #header button span{color: #fff !important;}
@@ -195,7 +204,8 @@ h3{font-size: 4.0em;font-weight: 500;}
      .carousel{width: 100%;height:30vh;margin-bottom: 10px}
      .carousel-item{width: 100%;height:30vh}
      .carousel-overlay{width: 100%;height:30vh;}
-     .top-story{width: 100%;height:30vh}
+     .top-story{width: 100%;height:30vh;position: relative;}
+
      .top-story img{width: 100%;height:30vh}
 
      .aritcles .articles-sheet{width: 100%;padding:0px;background-color: transparent !important;}
@@ -207,9 +217,9 @@ h3{font-size: 4.0em;font-weight: 500;}
 
 
      .news-section-sheet{width: 100%;padding:5px;margin-bottom: :5px;}
-     .news-section-sheet #new_items_sheet{background-color:#fff;}
+     /*.news-section-sheet #new_items_sheet{background-color:#fff;}*/
      .top-story-line,.main-stories{padding: 15px;background-color: #fff;}
-     .top-story-line img{height: 85%}
+     .top-story-line img{height: 95%}
 
 
      .video-banner{width: 100%;height: 45vh;}
