@@ -102,10 +102,10 @@ h3{font-size: 4.0em;font-weight: 500;}
 .video-and-trends .video{width: 100%;background-color: #fff;padding: 15px}
 .video-banner{width: 100%;height: 66vh;background-repeat: no-repeat;background-size: cover;background-position: center center;}
 .video-banner-overlay{width: 100%;height: 66vh;background-color: rgba(0,0,0,0.3);text-align: center;line-height: 66vh;}
-.video-banner-overlay i{font-size:4.0em;color: #ff0000}
+.video-banner-overlay i{font-size:4.0em;color: #fff}
 
 
-.new-trends{width: 100%;height:17vh;background-color: #fff;margin-bottom: 5px}
+.new-trends{width: 100%;height:15vh;background-color: #fff;margin-bottom: 5px}
 .new-trends .new-trends-video{width: 25%;height: 100%;background-color: rgba(0, 0, 0,0.1);}
 .new-trends .new-trends-video img{width: 100%;height: 100%}
 .new-trends .new-trends-caption{width: 73%;height: 100%;padding: 5px}
@@ -212,6 +212,9 @@ h3{font-size: 4.0em;font-weight: 500;}
      .top-story-line img{height: 85%}
 
 
+     .video-banner{width: 100%;height: 45vh;}
+     .video-and-trends .video{padding: 0px;}
+     .video-banner-overlay{width: 100%;height:45vh;line-height: 45vh;}
 
 
      
