@@ -187,7 +187,7 @@ h3{font-size: 4.0em;font-weight: 500;}
      .video-banner-overlay{width: 100%;height:50vh;line-height: 52vh;}
 
      .new-trends{width: 100%;height:17vh;background-color: #fff;margin-bottom: 7px}*/
-
+     html{font-size:12px}
      #header{padding:13px;margin-bottom:20px;}
      #header button{border: none;}
      #header button span{color: #fff !important;}
@@ -222,11 +222,11 @@ h3{font-size: 4.0em;font-weight: 500;}
 
      .popular-posts .ad-image{height: 40vh}
      .popular-posts .ad-image{height: 40vh}
-     .ad-image-over{height:40vh}
-     .ad-image-over img{height: 100%}
+     .ad-image-over{height:40vh;display: none;}
+
      .popular-posts .recent-post{height: 25px;padding: 6px 0px;}
-     .topnews-story{width: 100%;height:30vh;}
-     .topnews-story-overlay{width: 100%;height:30vh;}
+     .topnews-story{width: 100%;height:40vh;}
+     .topnews-story-overlay{width: 100%;height:40vh;}
 
            
      
