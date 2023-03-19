@@ -126,9 +126,9 @@ h3{font-size: 4.0em;font-weight: 500;}
 .around-the-world .owl-carousel .item .item-image{width: 100%;height:35vh;background-color: rgba(0, 0, 0,0.1);}
 
 .popular-posts{width: 100%;padding: 15px;background-color: #fff;}
-.popular-posts-story{width: 100%;padding: 10px 0px;height: 20vh;}
+.popular-posts-story{width: 100%;padding: 10px 0px;height: 15vh;}
 .popular-posts-story:not(:last-child){border-bottom: 1px solid #ebebeb;}
-.popular-posts-image{width: 25%;height: 17vh;background-color: rgba(0, 0, 0,0.1);}
+.popular-posts-image{width: 25%;height: 12vh;background-color: rgba(0, 0, 0,0.1);}
 .popular-posts-image img{width: 100%;height: 100%}
 .popular-posts-body{width: 73%;padding: 7px 0px;}
 
