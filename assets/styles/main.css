@@ -199,6 +199,9 @@ h3{font-size: 4.0em;font-weight: 500;}
 
      .aritcles .articles-sheet{width: 100%;padding:0px;background-color: transparent !important;}
      .aritcles .articles-sheet .articles-items{margin-bottom: 10px;}
-      
-    
+
+     .aritcles .articles-sheet .articles-items .articles-items-image{width: 100%;height:25vh;}
+     .aritcles .articles-sheet .articles-items .articles-items-image img{width: 100%;height: 100%;}
+     .aritcles .articles-sheet .articles-items .articles-items-body{width: 100%;height: 100%};
+     
 }
