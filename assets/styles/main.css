@@ -32,12 +32,12 @@ h3{font-size: 4.0em;font-weight: 500;}
 .top-story{width: 100%;height:40vh;background-color: rgba(0,0,0,0.1);margin-bottom: 10px}
 .top-story img{width: 100%;height:40vh}
 
-.other-story-description-headline{width: 100%;height:18vh;}
+.other-story-description-headline{width: 100%;height:15vh;}
 .other-story-description-headline h5{font-size: 20px;font-weight: 300;color:#404040}
 .other-story-description-headline p{color: #e6e6e6}
 .other-story-description-headline:not(:last-child){border-bottom: 1px solid #ebebeb;}
-.image-story{width:25%;height: 15vh;background-color: rgba(0,0,0,0.1)}
-.image-story img{height: 15vh;width: 100%}
+.image-story{width:25%;height: 12vh;background-color: rgba(0,0,0,0.1)}
+.image-story img{height: 100%;width: 100%}
 .story-details{width: 73%;height: 18px;}
 
 
