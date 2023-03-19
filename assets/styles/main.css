@@ -68,7 +68,7 @@ h3{font-size: 4.0em;font-weight: 500;}
 .main-video-trend-overlay{position: absolute;top: 0px;left: 0px;width: 100%;background-color: rgba(0, 0, 0,0.1);height: 100%;text-align: center;line-height: 45vh;}
 .main-video-trend-overlay i{font-size: 3.3em;color: #fff;}
 .top-story-line{width: 100%;height: 40vh;background-color: rgba(0, 0, 0,0.1);margin-bottom: 15px;border-bottom: 1px solid #ebebeb}
-.top-story-line img{width: 100%;height:40vh;}
+.top-story-line img{width: 100%;height:100%;}
 .main-stories{width: 100%}
 .news-section-sheet .col-md-9 .col-md-8 .col-md-6{margin-bottom: 20px}
 .main-stories-description{width: 100%;height: 21vh}
@@ -208,6 +208,9 @@ h3{font-size: 4.0em;font-weight: 500;}
      .news-section-sheet{width: 100%;background-color:#fff;padding:0px;margin-bottom: :5px;}
 
      .top-story-line,.main-stories{padding: 15px;background-color: #fff;}
+     .top-story-line img{height: 85%}
+
+
 
 
      
