@@ -118,7 +118,7 @@ h3{font-size: 4.0em;font-weight: 500;}
 .new-trends .new-trends-video{width: 25%;height: 100%;background-color: rgba(0, 0, 0,0.1);}
 .new-trends .new-trends-video img{width: 100%;height: 100%}
 .new-trends .new-trends-caption{width: 73%;height: 100%;padding: 5px}
-
+.new-trends .new-trends-caption h5 a{text-decoration: none;color: #4d4d4d}
 
 
 
