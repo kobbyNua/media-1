@@ -193,5 +193,7 @@ h3{font-size: 4.0em;font-weight: 500;}
      #topnews{padding:5px}
      .carousel{width: 100%;height:40vh;margin-bottom: 10px}
      .carousel-item{width: 100%;height:40vh}
-     .carousel-overlay{width: 100%;height:40vh;
+     .carousel-overlay{width: 100%;height:40vh;}
+
+     .top-story img{width: 100%;height:30vh}
 }
