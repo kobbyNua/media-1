@@ -16,7 +16,7 @@ h3{font-size: 4.0em;font-weight: 500;}
 #topnews{width: 100%;padding: 15px;background-color: #ffffff;}
 .carousel{width: 100%;height:76vh;margin-bottom: 10px}
 .carousel-item{width: 100%;height: 76vh;background-repeat: no-repeat;background-size: cover;background-position: center center;}
-.carousel-overlay{width: 100%;height: 76vh;background-image: linear-gradient(to bottom right,transparent,rgba(0, 0, 0,0.7));}
+.carousel-overlay{width: 100%;height: 76vh;background-image: linear-gradient(to left bottom,transparent,rgba(0, 0, 0,0.7));}
 .topnews-story{width: 100%;height: 65vh;background-repeat: no-repeat;background-size: cover;background-position: center center;background-repeat: no-repeat;}
 .topnews-story-overlay{width: 100%;height: 65vh;background-color: rgba(0, 0, 0,0.1);position: relative;padding: 15px}
 .topnews-story-text{width: 100%;position:absolute;bottom: 15px;color: #fff}
@@ -26,11 +26,11 @@ h3{font-size: 4.0em;font-weight: 500;}
 .topnews-story-headlines{width: 100%;height:31.5vh;background-color: rgba(0, 0, 0, 0.1);margin-bottom: 10px;} 
 .topnews-story-headlines img{width: 100%;height: 100%}
 
-.topnews-story-headlines-overlay{top: 0px;left: 0px;padding: 8px;position:absolute;width: 100%;background-color:rgba(0, 0, 0,0.1);height:100%;color: #fff}
+.topnews-story-headlines-overlay{top: 0px;left: 0px;padding: 8px;position:absolute;width: 100%;background-image:linear-gradient(to left bottom,transparent,rgba(0, 0, 0,0.7));height:100%;color: #fff}
 .topnews-story-headlines-text{position: absolute;bottom: 8px;padding: 5px;border-left: 1px solid #ff0000}
 .topnews-story-headlines-text h3{font-size: 17px}
 .top-story{width: 100%;height:40vh;background-color: rgba(0,0,0,0.1);margin-bottom: 10px;position: relative;}
-.top-story-overlay{width: 100%;height: 100%;padding: 8px;position: absolute;top: 0px;left: 0px;background-image:linear-gradient(to bottom right,transparent,rgba(0, 0, 0,0.7));}
+.top-story-overlay{width: 100%;height: 100%;padding: 8px;position: absolute;top: 0px;left: 0px;background-image:linear-gradient(to left bottom,transparent,rgba(0, 0, 0,0.7));}
 .top-story-text{position: absolute;bottom: 10px;border-left: 2px solid red}
 .top-story-text h5 a{color: #f3f3f3;text-decoration: none;text-transform: uppercase;font-size: 13px;font-weight: 500;}
 .top-story-text span{text-transform: uppercase;color: #fff;font-weight: 500;font-size: 12px}
@@ -76,7 +76,7 @@ h3{font-size: 4.0em;font-weight: 500;}
 .main-video-trend-overlay{position: absolute;top: 0px;left: 0px;width: 100%;background-color: rgba(0, 0, 0,0.1);height: 100%;text-align: center;line-height: 45vh;}
 .main-video-trend-overlay i{font-size: 3.3em;color: #fff;}
 .top-story-line{width: 100%;height: 40vh;position: relative;background-color: rgba(0, 0, 0,0.1);margin-bottom: 15px;border-bottom: 1px solid #ebebeb}
-.top-story-line .top-story-line-overlay{position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;background-image:linear-gradient(to left bottom,transparent,rgba(0, 0, 0, 0.3));padding: 8px}
+.top-story-line .top-story-line-overlay{position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;background-image:linear-gradient(to left bottom,transparent,rgba(0, 0, 0, 0.7));padding: 8px}
 .top-story-line .top-story-line-overlay .top-story-line-overlay-text{width: 100%;position: absolute;bottoM: 10px;}
 .top-story-line .top-story-line-overlay .top-story-line-overlay-text h4{color: #f3f3f3}
 .top-story-line img{width: 100%;height:100%;}
@@ -157,7 +157,7 @@ h3{font-size: 4.0em;font-weight: 500;}
 
 .popular-posts .ad-image{width: 100%;background-color: rgba(0, 0, 0,0.1);height: 78vh;margin-top:70px;position: relative;}
 .popular-posts .ad-image img{width: 100%;height: 78vh;}
-.ad-image-over{width: 100%;position: absolute;color: #fff;height: 78vh;background-image:linear-gradient(to bottom right,transparent,rgba(0,0,0,0.7));padding: 5px;left: 0px;top: 0px}
+.ad-image-over{width: 100%;position: absolute;color: #fff;height: 78vh;background-image:linear-gradient(to left bottom,transparent,rgba(0,0,0,0.7));padding: 5px;left: 0px;top: 0px}
 .footer{width: 100%;background-color: #4d4d4d;}
 .upper-footer{padding: 90px 0px}
 .upper-footer .quick-links span{display:block;margin-bottom: 10px;text-transform: capitalize;}
@@ -256,6 +256,10 @@ h3{font-size: 4.0em;font-weight: 500;}
      .around-the-world-main{height: 40vh;}
 
      .around-the-world .owl-carousel .item .item-image{height:20vh}
+
+     .topnews-story-headlines{width: 100%;height: 25vh;}
+     .topnews-story-headlines img{width: 100%;height: 100%;}
+     .topnews-story-headlines-overlay{width: 100%;height: 25vh;}
 
      .popular-posts-story{width: 100%;height: 15vh}
      .popular-posts-image{width: 25%;height: 12vh}
