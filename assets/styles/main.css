@@ -221,7 +221,7 @@ h3{font-size: 4.0em;font-weight: 500;}
      #navbarSupportedContent{z-index: 99999; blue;height: 100%;}
      .other-story-description-headline{width: 100%;height:15vh;}
      .other-story-description-headline .image-story{width: 25%;height: 12vh}
-     .other-story-description-headline .image-story img{width: 100%;height: 100vh}
+     .other-story-description-headline .image-story img{width: 100%;height: 100%}
      #topnews{padding:5px}
      .carousel{width: 100%;height:30vh;margin-bottom: 10px}
      .carousel-item{width: 100%;height:30vh}
