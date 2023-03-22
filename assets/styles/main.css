@@ -117,7 +117,7 @@ h3{font-size: 4.0em;font-weight: 500;}
 .video-banner-overlay i{font-size:4.0em;color: #fff}
 
 
-.new-trends{width: 100%;height:15vh;background-color: #fff;margin-bottom:7px}
+.new-trends{width: 100%;height:17vh;background-color: #fff;margin-bottom:7px}
 .new-trends .new-trends-video{width: 25%;height: 100%;background-color: rgba(0, 0, 0,0.1);position: relative;}
 
 .new-trends .new-trends-video img{width: 100%;height: 100%}
@@ -242,6 +242,11 @@ h3{font-size: 4.0em;font-weight: 500;}
      .video-banner{width: 100%;height: 45vh;}
      .video-and-trends .video{padding: 0px;}
      .video-banner-overlay{width: 100%;height:45vh;line-height: 45vh;}
+
+
+     .new-trends{width: 100%;height: 15vh}
+     .new-trends .new-trends-video{width: 25%;height: 15vh;}
+     .new-trends .new-trends-video img{width: 100%;height: 100%;}
 
      .around-the-world-main{height: 40vh;}
 
