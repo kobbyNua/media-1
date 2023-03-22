@@ -173,10 +173,10 @@ h3{font-size: 4.0em;font-weight: 500;}
 .lower-footer  .sub-links span a{text-decoration: none;color: #e6e6e6}
 
 
-.modal-dialog{margin: 0;padding: 0;width: 60%;height: 100%}
-.modal-content{height: 0;min-height: 100%;border-radius: 0;}
 
 @media only screen and (min-width:320px) and (max-width:768px){
+.modal-dialog{margin: 0;padding: 0;width: 60%;height: 100%}
+.modal-content{height: 0;min-height: 100%;border-radius: 0;}
 
 	 /*#topnews{padding:2px; width: 100%;background-color: transparent !important;}
 	 #topnews .container-fluid{padding: 0px;}
