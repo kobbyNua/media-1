@@ -173,7 +173,8 @@ h3{font-size: 4.0em;font-weight: 500;}
 .lower-footer  .sub-links span a{text-decoration: none;color: #e6e6e6}
 
 
-
+.modal-dialog{margin: 0;padding: 0;width: 60%;height: 100%}
+.modal-content{height: 0;min-height: 100%;border-radius: 0;}
 
 @media only screen and (min-width:320px) and (max-width:768px){
 
@@ -211,9 +212,13 @@ h3{font-size: 4.0em;font-weight: 500;}
      #header button{border: none;}
      #header button span{color: #fff !important;position: relative;}
      #navbarSupportedContent{text-align: left;}
+     .mobile-navbar-toggle a{color: #fff;text-decoration: none}
+     .mobile-navbar-toggle a i{color: #f3f3f3}
      #header .collapse.navbar-collapse ul li a{color:#f3f3f3;width:100%;font-size:14px ;text-transform: uppercase;text-align:left;font-weight: bold;padding:10px}
      #header .collapse.navbar-collapse ul li a:not(:last-child){border-bottom: 1px solid #f3f3f3;}
-     #navbarSupportedContent{z-index: 99999;background-color: blue;height: 100%;}
+     #navbarSupportedContent{z-index: 99999; blue;height: 100%;}
+
+
      #topnews{padding:5px}
      .carousel{width: 100%;height:30vh;margin-bottom: 10px}
      .carousel-item{width: 100%;height:30vh}
